@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13160D082820FEF600634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160D072820FEF600634997 /* main.cpp */; };
+		13160D102820FF2300634997 /* strassen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160D0F2820FF2300634997 /* strassen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		13160D042820FEF600634997 /* 4_strassen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4_strassen; sourceTree = BUILT_PRODUCTS_DIR; };
-		13160D072820FEF600634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160D0E2820FF2300634997 /* strassen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strassen.h; sourceTree = "<group>"; };
+		13160D0F2820FF2300634997 /* strassen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = strassen.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		13160D062820FEF600634997 /* 4_strassen */ = {
 			isa = PBXGroup;
 			children = (
-				13160D072820FEF600634997 /* main.cpp */,
+				13160D0F2820FF2300634997 /* strassen.cpp */,
+				13160D0E2820FF2300634997 /* strassen.h */,
 			);
 			path = 4_strassen;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13160D082820FEF600634997 /* main.cpp in Sources */,
+				13160D102820FF2300634997 /* strassen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
